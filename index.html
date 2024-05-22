@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Vansh'S Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="img/titleicons.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <!-- nav starts -->
+    <nav id="desktop-nav">
+      <div class="logo">Vansh Dhalor</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experince">Experince</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <nav id="hamburger-nav">
+      <div class="logo">Vansh Dhalor</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experince" onclick="toggleMenu()">Experince</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- sections -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="img/vishu.jpg" alt="vansh image" class="vishu" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">hello,I'm</p>
+        <h1 class="title">vansh dhalor</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open()">
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="location.href='contact.html'"
+          >
+            contact Me
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="img/link-removebg-preview.png"
+            alt="linkdnin"
+            class="icons"
+            onclick="location.href='https://www.linkedin.com/in/vansh-dhalor-000a7524a/'"
+          />
+          <img
+            src="img/github.png"
+            alt="github"
+            onclick="location.href='https://github.com/vansh-frontend'"
+            class="iconss"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__Pic-container">
+          <img src="img/vansh.jpg" alt="" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-container" id="one">
+            <div class="details-container" id="hii">
+              <img
+                src="img/ribbon-removebg-preview.png"
+                alt="experince icons"
+                class="iconss"
+              />
+              <h3>Experince</h3>
+              <p>1 years <br />Frontend Development</p>
+            </div>
+            <div class="details-container" id="hiii">
+              <img
+                src="img/edu-removebg-preview.png"
+                alt="experince icons"
+                class="icons"
+              />
+              <h3>Education</h3>
+              <p>BCA - Bachelor Of Computer Application</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Passionate Frontend Developer with expertise in HTML, CSS,
+              JavaScript, PHP SQL, and currently expanding skills in React.
+              Dedicated to crafting user-friendly and visually appealing web
+              experiences. Currently pursuing BCA at Chandigarh University
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="img/arrow-removebg-preview.png"
+        alt="arrow"
+        class="icon-arrow"
+        onclick="location.href='./#experince'"
+      />
+    </section>
+
+    <section id="experince">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experince</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="img/html-removebg-preview.png"
+                  alt="experince"
+                  class="icons"
+                />
+
+                <!-- html -->
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experinced</p>
+                </div>
+              </article>
+              <article>
+                <!-- css -->
+                <img
+                  src="img/css-removebg-preview.png"
+                  alt="experince"
+                  class="icons"
+                />
+
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experinced</p>
+                </div>
+              </article>
+
+              <article>
+                <!-- js -->
+                <img
+                  src="img/js-removebg-preview.png"
+                  alt="experince"
+                  class="icons"
+                />
+
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="img/react-removebg-preview.png"
+                  alt="experince"
+                  class="icons"
+                />
+
+                <div>
+                  <h3>React js</h3>
+                  <p>beginner</p>
+                </div>
+              </article>
+
+              <article>
+                <!-- php -->
+                <img src="img/php.png" alt="experince" class="icons" />
+
+                <div>
+                  <h3>PHP</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <!-- sql -->
+                <img
+                  src="img/sql-removebg-preview.png"
+                  alt="experince"
+                  class="icons"
+                />
+
+                <div>
+                  <h3>SQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="img/git.png" alt="experince" class="icons" />
+
+                <div>
+                  <h3>control version</h3>
+                  <p>Git Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img src="img/github.png" alt="experince" class="icons" />
+
+                <div>
+                  <h3>control</h3>
+                  <p>Github Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="img/netlify-removebg-preview.png"
+                  alt="experince"
+                  class="icons"
+                />
+
+                <div>
+                  <h3>Web Hosting</h3>
+                  <p>Netlify</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="img/arrow-removebg-preview.png"
+        alt="arrow"
+        class="icon-arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <!-- projects -->
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+          <!-- project 1 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="img/google-removebg-preview.png"
+                alt="pulse pro"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <p class="section__text__p1">My Doodle</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 Project-btn"
+                onclick="location.href='https://github.com/vansh-frontend/Doodle-Clone'"
+              >
+                Github
+              </button>
+              <!-- project 1 ends -->
+
+              <button
+                class="btn btn-color-2 Project-btn"
+                onclick="location.href='https://mydoodle.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="img/netflix-removebg-preview.png"
+                alt="pulse pro"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <p class="section__text__p1">Netflix Clone</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 Project-btn"
+                onclick="location.href='https://github.com/vansh-frontend/cineplix'"
+              >
+                Github
+              </button>
+
+              <button
+                class="btn btn-color-2 Project-btn"
+                onclick="location.href='https://cineplix.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="img/cuims.png"
+                alt="pulse pro"
+                class="project-img"
+                id="cuims"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <p class="section__text__p1">Cuims Clone</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 Project-btn"
+                onclick="location.href='https://github.com/vansh-frontend/Cuims-Clone'"
+              >
+                Github
+              </button>
+
+              <button
+                class="btn btn-color-2 Project-btn"
+                onclick="location.href='https://cuims.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="img/arrow-removebg-preview.png"
+        alt="arrow"
+        class="icon-arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <!-- last section -->
+    <section id="contact">
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="img/mail.png" alt="mail logo" class="iconss contact-icon" />
+          <p>
+            <a href="mailto:vanshdhalor0001@gmail.com">Example@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            src="img/link-removebg-preview.png"
+            alt="mail logo"
+            class="icons contact-icon link-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/vansh-dhalor-000a7524a/"
+              >Linkedin</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experince">Experince</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="contact.html">Feedback</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Vansh Dhalor All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
