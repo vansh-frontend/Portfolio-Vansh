@@ -6,6 +6,9 @@
   .about-container {
     flex-wrap: wrap;
   }
+  .details-container {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -47,6 +50,10 @@
   .about-container {
     margin-top: 0;
   }
+  #projects .details-container {
+    /* background-color: red; */
+    margin: 0 5rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -73,6 +80,9 @@
   }
   .btn-container {
     margin: 0 -20px;
+  }
+  #projects .details-container {
+    margin: 0 0.5rem;
   }
 
   #one {
@@ -133,7 +143,7 @@
   .section__pic-container {
     width: 265px;
     height: 265px;
-    margin: 0 2.5rem;
+    margin: 0 auto;
   }
   .section__pic-container img {
     width: 255px;
