@@ -51,7 +51,6 @@
     margin-top: 0;
   }
   #projects .details-container {
-    /* background-color: red; */
     margin: 0 5rem;
   }
 }
@@ -155,6 +154,7 @@
   }
 }
 
+/* tablests mediaquery */
 @media screen and (min-width: 600px) and (max-width: 1200px) {
   #profile {
     height: 80vh;
